@@ -1,11 +1,11 @@
 spring:
   application:
     name: order-service # 应用名称
-  zipkin:
-    base-url: http://172.27.34.24:9411/ # 服务端地址
-    sender:
-      type: web                      # 数据传输方式，web 表示以 HTTP 报文的形式向服务端发送数据
-      #type: rabbit
+#  zipkin:
+#    base-url: http://172.27.34.24:9411/ # 服务端地址
+#    sender:
+#      type: web                      # 数据传输方式，web 表示以 HTTP 报文的形式向服务端发送数据
+#      #type: rabbit
 #    rabbitmq:
 #      queue: zipkin               # 队列名称
 #  rabbitmq:
